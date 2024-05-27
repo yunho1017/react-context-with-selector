@@ -6,8 +6,7 @@ import {
   useMemo,
   useRef,
 } from "react";
-import useSyncExternalStoreExports from "use-sync-external-store/shim/with-selector";
-const { useSyncExternalStoreWithSelector } = useSyncExternalStoreExports;
+import { useSyncExternalStoreWithSelector } from "use-sync-external-store/shim/with-selector";
 
 interface State<T> {
   setState: (value: T) => void;
