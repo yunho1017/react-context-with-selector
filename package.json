@@ -1,6 +1,7 @@
 {
   "name": "react-context-with-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "sideEffects": false,
   "description": "use React Context with selector",
   "author": "Yunho Seo",
   "license": "MIT",
